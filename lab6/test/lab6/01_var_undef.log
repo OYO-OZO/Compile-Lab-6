@@ -1,0 +1,3 @@
+identifier "a" is undefined
+compiler: src/parser.y:146: int yyparse(): Assertion `se != nullptr' failed.
+Aborted

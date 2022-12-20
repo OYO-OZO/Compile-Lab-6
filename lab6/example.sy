@@ -1,0 +1,21 @@
+// test if-else-if
+int ifElseIf() {
+  int a;
+  a = 5;
+  int c;
+  c = 10;
+
+    if ( a == 1&&c==10)
+      //a = 25;
+      c = 10;
+    else
+      a = -+a;
+
+
+  return a;
+}
+
+int main(){
+  putint(ifElseIf());
+  return 0;
+}
